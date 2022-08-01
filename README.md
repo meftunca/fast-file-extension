@@ -27,59 +27,59 @@ May require 4% ~ 6% more data size than JSON files.
 ### Examples
 
 ```
-\O
-  /OKexamplesOK/: /A
-    \O
-      /OKtag_nameOK/: /(a)/,
-      /OKattrOK/: /A
-        \O
-          /OKkeyOK/: /(href)/,
-          /OKvalueOK/: /(http://amir.saboury.net)/
+/O
+  /KexamplesK/: /A
+    /O
+      /Ktag_nameK/: /(a)/,
+      /KattrK/: /A
+        /O
+          /KkeyK/: /(href)/,
+          /KvalueK/: /(http://amir.saboury.net)/
         O/,
-       \O
-          /OKkeyOK/: /(target)/,
-          /OKvalueOK/: /(_blank)/
+       /O
+          /KkeyK/: /(target)/,
+          /KvalueK/: /(_blank)/
         O/
       A/
     O/,
-   \O
-      /OKthis_isOK/: /A
+   /O
+      /Kthis_isK/: /A
         /(array)/,
         /(of)/,
         /(strings)/
       A/,
-      /OKnumber_arrayOK/: /A
-        \N1N/,
-        \N2N/,
-        \N4N/,
-        \N8N/,
-        \N16N/
+      /Knumber_arrayK/: /A
+        /N1N/,
+        /N2N/,
+        /N4N/,
+        /N8N/,
+        /N16N/
       A/,
-      /OKpieOK/: \N3.14N/,
-      /OKbooleanOK/: \T/,
-      /OKbugOK/: \NA/,
-      /OKmixedOK/: /A
-        \N1N/,
-        \N2N/,
+      /KpieK/: /N3.14N/,
+      /KbooleanK/: /T/,
+      /KbugK/: /NA/,
+      /KmixedK/: /A
+        /N1N/,
+        /N2N/,
         /O
-          /OKtest1OK/: -1.2345,
-          /OKtest2OK/: \F/
+          /Ktest1K/: -1.2345,
+          /Ktest2K/: /F/
         O/,
-        \NA/,
-        \N0.4N/,
+        /NA/,
+        /N0.4N/,
         /A
           /(nested)/,
           /A
             /(array)/,
-            \T/
+            /T/
           A/
         A/,
         /(end of story!)/
       A/
     O/,
-    \O
-      /OKdoneOK/: \T/
-   O/
+    /O
+      /KdoneK/: /T/
+    O/
   A/
 O/
 
