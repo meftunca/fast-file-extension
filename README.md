@@ -1,6 +1,6 @@
 # fast-file-extension
 
-## Goal for than GB parsing need projects
+## Data format and syntax for projects that need to write/read large amounts of data.
 
 ### RULES
 
