@@ -13,7 +13,7 @@
 - Object Key IS : `\OK` `OK/`
 - BOOLEAN IS : true or false 
   -  `\T/` or `\F/`
-- NULL IS : `\N/` or null
+- NULL IS : `\NA/` or null
 - ...
 
 
@@ -25,7 +25,6 @@ Parsing relies entirely on token generation or any search algorithm, adhering to
 ### Examples
 
 ```
-
 \O
   /OKexamplesOK/: /A
     \O
@@ -48,24 +47,24 @@ Parsing relies entirely on token generation or any search algorithm, adhering to
         /(strings)/
       A/,
       /OKnumber_arrayOK/: /A
-        1,
-        2,
-        4,
-        8,
-        16
+        \N1N/,
+        \N2N/,
+        \N4N/,
+        \N8N/,
+        \N16N/
       A/,
-      /OKpieOK/: 3.14,
+      /OKpieOK/: \N3.14N/,
       /OKbooleanOK/: \T/,
-      /OKbugOK/: \N/,
+      /OKbugOK/: \NA/,
       /OKmixedOK/: /A
-        1,
-        2,
+        \N1N/,
+        \N2N/,
         /O
           /OKtest1OK/: -1.2345,
           /OKtest2OK/: \F/
         O/,
-        \N/,
-        0.4,
+        \NA/,
+        \N0.4N/,
         /A
           /(nested)/,
           /A
