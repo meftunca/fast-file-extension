@@ -21,6 +21,8 @@
 
 Parsing relies entirely on token generation or any search algorithm, adhering to regular expressions. Fast data processing will be possible thanks to certain rules. The project is currently experimental. Please do not use sample codes in your projects that you will publish.
 
+May require 4% ~ 6% more data size than JSON files.
+
 
 ### Examples
 
