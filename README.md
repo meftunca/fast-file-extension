@@ -6,14 +6,13 @@
 
 ### Spesific Escape String Literals
 
-- Object IS : `\O O/` or `\{ }/`
-- Array IS : `\A A/` or `\[ ]/`
-- String IS : `\(` `)/`
-- Number IS : `\N` `N/`
+- Object IS : `/O O/`
+- Array IS : `/A A/`
+- String IS : `/(` `)/`
+- Number IS : `/N` `N/`
 - Object Key IS : `\OK` `OK/`
-- BOOLEAN IS : true or false 
-  -  `\T/` or `\F/`
-- NULL IS : `\NA/` or null
+- BOOLEAN IS : `/T/` or `/F/`
+- NULL IS : `/NA/` or null
 - ...
 
 
