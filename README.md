@@ -1,4 +1,4 @@
-# fast-file-extension
+# Fast File (.ff)
 
 ## Data format and syntax for projects that need to write/read large amounts of data.
 
