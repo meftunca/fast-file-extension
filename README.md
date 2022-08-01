@@ -12,8 +12,8 @@
 - Number IS : `\N` `N/`
 - Object Key IS : `\OK` `OK/`
 - BOOLEAN IS : true or false 
-  -  `\BT` `BT/` or `\BF` `BF/`
-- NULL IS : `\N` `N/` or null
+  -  `\T/` or `\F/`
+- NULL IS : `\N/` or null
 - ...
 
 
